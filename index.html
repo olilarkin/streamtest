@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stream Test</title>
+<style>
+  body { font: 16px/1.5 -apple-system, system-ui, sans-serif; max-width: 42rem; margin: 3rem auto; padding: 0 1rem; }
+  article { border-top: 1px solid #8884; padding: 1rem 0; }
+  h2 { margin: 0; font-size: 1.1rem; }
+  .info { margin: 0 0 .5rem; opacity: .7; font-size: .9rem; }
+  audio { width: 100%; }
+  .open { font-weight: 600; }
+  code { word-break: break-all; }
+  @media (prefers-color-scheme: dark) { body { background: #111; color: #eee; } a { color: #6cf; } }
+</style>
+</head>
+<body>
+  <h1>Stream Test</h1>
+  <p>Pogo &amp; Sonic Species - Numinous 3D, 5th order Ambisonics as APAC over HLS.</p>
+  <p>These are spatial audio streams for <a href="https://periphony.app/">Periphony</a>.
+     To browse the whole collection in the app, open its Content Manager, add a repository and give it this address:</p>
+  <p><code>https://olilarkin.github.io/streamtest/stream-test_1.0.json</code></p>
+  <p>The players below work in Safari, which plays the streams without head tracking or visualizers.</p>
+    <article>
+      <h2>Pogo &amp; Sonic Species - Numinous 3D</h2>
+      <p class="info">5th order Ambisonics · 08:00 · 87.5 MB</p>
+      <audio controls preload="none" src="streams/pogo-sonic-species-numinous-3d/master.m3u8"></audio>
+      <p><a class="open" href="periphony://open?url=https%3A%2F%2Folilarkin.github.io%2Fstreamtest%2Fstreams%2Fpogo-sonic-species-numinous-3d%2Fmaster.m3u8" data-stream="streams/pogo-sonic-species-numinous-3d/master.m3u8">Open in Periphony</a></p>
+    </article>
+<script>
+  // Point each link at the stream beside this page, wherever the page is
+  // being served from: a copy on another host, or a computer on the local
+  // network while the collection is being tried out.
+  for (const link of document.querySelectorAll("a.open[data-stream]")) {
+    const stream = new URL(link.dataset.stream, location.href);
+    link.href = "periphony://open?url=" + encodeURIComponent(stream.href);
+  }
+</script>
+</body>
+</html>

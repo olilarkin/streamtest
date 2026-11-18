@@ -1,0 +1,36 @@
+{
+  "name": "Stream Test",
+  "description": "Pogo & Sonic Species - Numinous 3D, 5th order Ambisonics as APAC over HLS.",
+  "inventoryURL": "https://olilarkin.github.io/streamtest/stream-test_1.0.json",
+  "formatVersion": {
+    "majorVersion": 1,
+    "minorVersion": 0
+  },
+  "type": "userDefined",
+  "imageURL": "https://olilarkin.github.io/streamtest/collection.png",
+  "isImageOriginal": false,
+  "homePageURL": "https://olilarkin.github.io/streamtest/",
+  "items": [
+    {
+      "id": "stream-test.pogo-sonic-species-numinous-3d",
+      "type": "audio",
+      "locationType": "remote",
+      "priceType": "free",
+      "title": "Pogo & Sonic Species - Numinous 3D",
+      "description": "",
+      "metadata": {},
+      "audioInfo": {
+        "Format": "APAC (HLS stream)",
+        "File Size": "87.5 MB",
+        "Duration": "08:00",
+        "Surround Format": "5th order Ambisonics",
+        "Channel Count": "36",
+        "Sample Rate": "48,000 Hz"
+      },
+      "fileLocation": "https://olilarkin.github.io/streamtest/streams/pogo-sonic-species-numinous-3d/master.m3u8",
+      "streamLocation": "https://olilarkin.github.io/streamtest/streams/pogo-sonic-species-numinous-3d/master.m3u8",
+      "imageLocation": "AmbisonicsLarge",
+      "isImageOriginal": false
+    }
+  ]
+}

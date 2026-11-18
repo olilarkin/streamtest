@@ -17,8 +17,17 @@
       "locationType": "remote",
       "priceType": "free",
       "title": "Pogo & Sonic Species - Numinous 3D",
-      "description": "",
-      "metadata": {},
+      "description": "5th order ambisonics mix of 'Numinous' by Pogo & Sonic Species. Mixed at the University of Huddersfield SPIRAL studio. Check out the WebVR version at https://numinous3d.com",
+      "metadata": {
+        "Artist": "Pogo & Sonic Species",
+        "Remixer": "Oli Larkin",
+        "Genre": "Electronic",
+        "Year": "2017"
+      },
+      "geoTagCoOrdinates": {
+        "latitude": 53.6414818,
+        "longitude": -1.7835791
+      },
       "audioInfo": {
         "Format": "APAC (HLS stream)",
         "File Size": "87.5 MB",

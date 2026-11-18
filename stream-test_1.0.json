@@ -7,8 +7,8 @@
     "minorVersion": 0
   },
   "type": "userDefined",
-  "imageURL": "https://olilarkin.github.io/streamtest/collection.png",
-  "isImageOriginal": false,
+  "imageURL": "https://olilarkin.github.io/streamtest/collection.jpg",
+  "isImageOriginal": true,
   "homePageURL": "https://olilarkin.github.io/streamtest/",
   "items": [
     {
@@ -29,8 +29,8 @@
       },
       "fileLocation": "https://olilarkin.github.io/streamtest/streams/pogo-sonic-species-numinous-3d/master.m3u8",
       "streamLocation": "https://olilarkin.github.io/streamtest/streams/pogo-sonic-species-numinous-3d/master.m3u8",
-      "imageLocation": "AmbisonicsLarge",
-      "isImageOriginal": false
+      "imageLocation": "https://olilarkin.github.io/streamtest/collection.jpg",
+      "isImageOriginal": true
     }
   ]
 }
